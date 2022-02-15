@@ -1,0 +1,15 @@
+i = 5
+while i>0:
+    for k in range(10-i):
+        print(' ',end="")
+    for j in range(i):
+        print("x", end=" ")
+    print("")
+    i -= 1
+
+for i in range(2, 5+1):
+    for k in range(10-i):
+        print(" ",end="")
+    for j in range(i):
+        print("x", end=" ")
+    print("")
